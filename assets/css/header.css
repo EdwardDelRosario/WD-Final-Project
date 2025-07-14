@@ -5,10 +5,13 @@
 }
 
 body {
+    color:white;
     display: flex;
     height: 100vh;
     flex-direction: column;
     overflow: hidden;
+    background: #3F5EFB;
+background: linear-gradient(0deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 
 .bg {
@@ -21,6 +24,7 @@ body {
 }
 
 .header {
+    flex: 0 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,19 +54,5 @@ body {
 }
 
 .title {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: yellow;
-    font-size: 3rem;
-    gap: 0.5rem;
-    h1, h2, h3 {
-        letter-spacing: 0.1rem;
-         background-color: rgba(234, 0, 255, 0.5);
-         padding: 0 1.5rem;
-         border: 3px solid yellow;
-    }
+    padding: 3rem 5rem;
 }
